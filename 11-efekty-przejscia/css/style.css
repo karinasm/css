@@ -1,0 +1,56 @@
+.box{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+#colors{
+    transition: background-color 3s linear 1s;
+    background-color: yellow;
+
+}
+#colors:hover{
+    background-color: deeppink;
+    cursor: not-allowed;
+}
+.box-width{
+    background-color: blueviolet;
+    height: 150px;
+    margin: 20px;
+    width: 150px;
+ }
+ #box1{
+    transition-property: width 3s linear 1s;
+    width: 150px;
+ }
+ #box1:hover{
+    width 300px;
+ }
+ .box-height{
+    background-color: aqua;
+    width: 150px;
+    margin: 20px;
+    height: 150px;
+ }
+ #box2{
+    transition: height 3s linear 1s;
+    height: 150px;
+ }
+ #box2:hover{
+    height 300px;
+ }
+ .box-width-height{
+    background-color: chocolate;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+ }
+ #box3:hover{
+    transition: width 3s linear 1s;
+    transition: height 3s linear 1s;
+    width: 150px;
+    height: 150px;
+ }
+ #box3:hover{
+     width  300px;
+     height 300px;
+ }
