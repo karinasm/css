@@ -1,0 +1,52 @@
+form {
+    background-color: #213b50;
+    padding: 20px;
+    color: white;
+    width: 30%;
+}
+form label, form select {
+    margin-bottom: 10px;
+}
+ from label {
+     display: block;
+     margin-bottom: 5px;
+ }
+from input[type="radio"], from input[type="checkbox"]{
+    width: 20px;
+}
+select{
+    height: 30px;
+    width: 300px;
+}
+input#lastname {
+    background: #2b4a64;
+    height: 30px;
+    width: 300px;
+} 
+input#name {
+    background: #2b4a64;
+    height: 30px;
+    width: 300px;
+} 
+input#phone {
+    background: #2b4a64;
+    height: 30px;
+    width: 300px;
+} 
+input#mail {
+    background: #2b4a64;
+    height: 30px;
+    width: 300px;
+} 
+textarea{
+    background: #2b4a64;
+    height: 100px;
+    width: 300px;
+    
+}
+input:last-child {
+    background-color:green;
+    height: 40px;
+    width: 100px;
+    color: white;
+}
