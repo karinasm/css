@@ -5,7 +5,7 @@
     padding: 10px;
     margin: 3px;
     background-color: orange;
-    flex-basis: 5%;
+    flex-basis: 27%;
 }
 
 .flex-item:nth-last-of-type(odd){
@@ -15,10 +15,12 @@
 .container{
     border: 1px dashed red;
     display: flex; 
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
     /* flex-direction: row; */
     /* flex-direction: column; */
     /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap-reverse;
 }
 
 
